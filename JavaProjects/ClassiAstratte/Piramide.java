@@ -1,3 +1,4 @@
+// Classe Piramide
 package JavaProjects.ClassiAstratte;
 
 public class Piramide extends Figura {
