@@ -51,5 +51,4 @@ public class Piramide extends Figura {
     public String toString() {
         return "Piramide [altezza=" + altezza + ", lato=" + lato + "]";
     }
-
 }
