@@ -1,16 +1,19 @@
-public class Piramide extends Figura {
+package JavaProjects.ClassiAstratte;
+
+public class ParallelepipedoABaseTriangolare extends Figura {
 
     private double altezza;
     private double lato;
 
-    public Piramide(){
+    public ParallelepipedoABaseTriangolare() {
 
     }
 
-    public Piramide(double altezza, double lato){
+    public ParallelepipedoABaseTriangolare(double altezza, double lato) {
         setAltezza(altezza);
         setLato(lato);
     }
+
 
 
     public double getAltezza() {
@@ -28,7 +31,9 @@ public class Piramide extends Figura {
     public void setLato(double lato) {
         this.lato = lato;
     }
-    
+
+
+
     @Override
     public double getArea() {
         return (lato * lato) + (lato * Math.sqrt((lato * lato) + (altezza * altezza)));
@@ -46,7 +51,7 @@ public class Piramide extends Figura {
 
     @Override
     public String toString() {
-        return "Piramide [altezza=" + altezza + ", lato=" + lato + "]";
+        return "ParallelepipedoABaseTriangolare [altezza=" + altezza + ", lato=" + lato + "]";
     }
 
 }
