@@ -1,3 +1,4 @@
+// Classe Parallelepipedo
 package JavaProjects.ClassiAstratte;
 
 public class ParallelepipedoABaseTriangolare extends Figura {

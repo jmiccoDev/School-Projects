@@ -1,3 +1,4 @@
+// Classe Piramide
 package JavaProjects.ClassiAstratte;
 
 public class Piramide extends Figura {
@@ -50,5 +51,4 @@ public class Piramide extends Figura {
     public String toString() {
         return "Piramide [altezza=" + altezza + ", lato=" + lato + "]";
     }
-
 }
