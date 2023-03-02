@@ -2,27 +2,27 @@
 
 public class Nodo {
     private int info;
-    private Nodo next;
+    private Nodo link;
 
-    public Nodo(int info) {
-        this.info = info;
-        this.next = null;
+    public Nodo(int n) {
+        info = new int(n);
+        link = null;
     }
 
     public int getInfo() {
-        return info;
+        return new int(info);
     }
 
     public void setInfo(int info) {
         this.info = info;
     }
 
-    public Nodo getNext() {
-        return next;
+    public Nodo getLink() {
+        return link;
     }
 
-    public void setNext(Nodo next) {
-        this.next = next;
+    public void setLink(Nodo link){
+        this.link = link;
     }
 }
 
