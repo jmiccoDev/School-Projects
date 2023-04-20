@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.veronatrento.areadeltriangolo.PrimaryController">
+   <children>
+      <ImageView fitHeight="112.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/Area%20del%20triangolo.png" />
+         </image>
+      </ImageView>
+      <Label text="Calcola Area del Triangolo" textFill="#11acff">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font></Label>
+      <Label text="Base" textFill="#6e6e6e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textBase" promptText="Inserisci la base" />
+      <Label text="Altezza" textFill="#6e6e6e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textAltezza" promptText="Inserisci l'altezza" />
+      <Button fx:id="buttonCalcola" onAction="#Button1_Click" text="Calcola!" textFill="#488346">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Text fx:id="textRisultato" strokeType="OUTSIDE" strokeWidth="0.0" text="Risultato: ???">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
